@@ -1,0 +1,724 @@
+The system is: Windows - 6.2 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: c:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2552486590/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2552486590.dir\build.make CMakeFiles/cmTryCompileExec2552486590.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2552486590.dir/testCCompiler.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2552486590.dir\testCCompiler.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTryCompileExec2552486590.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2552486590.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2552486590.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2552486590.dir/objects.a @CMakeFiles\cmTryCompileExec2552486590.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec2552486590.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2552486590.exe -Wl,--out-implib,libcmTryCompileExec2552486590.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2438841889/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2438841889.dir\build.make CMakeFiles/cmTryCompileExec2438841889.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2438841889.dir/CMakeCCompilerABI.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2438841889.dir\CMakeCCompilerABI.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec2438841889.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2438841889.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2438841889.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2438841889.dir/objects.a @CMakeFiles\cmTryCompileExec2438841889.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec2438841889.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2438841889.exe -Wl,--out-implib,libcmTryCompileExec2438841889.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../src/gcc-4.7.1/configure --build=mingw32 --enable-languages=c,c++,ada,fortran,objc,obj-c++ --enable-threads=win32 --enable-libgomp --enable-lto --enable-fully-dynamic-string --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gnu-ld --disable-nls --disable-win32-registry --disable-symvers --disable-build-poststage1-with-cxx --disable-werror --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --enable-cxx-flags='-fno-function-sections -fno-data-sections' --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: win32
+gcc version 4.7.1 (tdm-1) 
+COMPILER_PATH=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/;c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2438841889.exe' '-mtune=i386' '-march=i386'
+ c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/collect2.exe -Bdynamic -o cmTryCompileExec2438841889.exe c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../crt2.o c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtbegin.o -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1 -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec2438841889.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec2438841889.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtend.o
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2438841889/fast"]
+  ignore line: [c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2438841889.dir\build.make CMakeFiles/cmTryCompileExec2438841889.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp']
+  ignore line: ["F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2438841889.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2438841889.dir\CMakeCCompilerABI.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec2438841889.exe]
+  ignore line: ["F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2438841889.dir\link.txt --verbose=1]
+  ignore line: ["F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2438841889.dir/objects.a]
+  ignore line: [c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2438841889.dir/objects.a @CMakeFiles\cmTryCompileExec2438841889.dir\objects1.rsp]
+  ignore line: [c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec2438841889.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2438841889.exe -Wl,--out-implib,libcmTryCompileExec2438841889.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../src/gcc-4.7.1/configure --build=mingw32 --enable-languages=c,c++,ada,fortran,objc,obj-c++ --enable-threads=win32 --enable-libgomp --enable-lto --enable-fully-dynamic-string --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gnu-ld --disable-nls --disable-win32-registry --disable-symvers --disable-build-poststage1-with-cxx --disable-werror --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --enable-cxx-flags='-fno-function-sections -fno-data-sections' --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.1 (tdm-1) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2438841889.exe' '-mtune=i386' '-march=i386']
+  link line: [ c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/collect2.exe -Bdynamic -o cmTryCompileExec2438841889.exe c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../crt2.o c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtbegin.o -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1 -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec2438841889.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec2438841889.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtend.o]
+    arg [c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.7.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2438841889.exe] ==> ignore
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../crt2.o] ==> ignore
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtbegin.o] ==> ignore
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../..] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec2438841889.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec2438841889.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1] ==> [c:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.7.1]
+  collapse dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc] ==> [c:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc]
+  collapse dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../mingw32/lib] ==> [c:/Program Files (x86)/CodeBlocks/MinGW/mingw32/lib]
+  collapse dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.7.1/../../..] ==> [c:/Program Files (x86)/CodeBlocks/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.7.1;c:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc;c:/Program Files (x86)/CodeBlocks/MinGW/mingw32/lib;c:/Program Files (x86)/CodeBlocks/MinGW/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3327696361/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3327696361.dir\build.make CMakeFiles/cmTryCompileExec3327696361.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3327696361.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3327696361.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3327696361.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3327696361.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3327696361.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec3327696361.dir/objects.a @CMakeFiles\cmTryCompileExec3327696361.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec3327696361.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3327696361.exe -Wl,--out-implib,libcmTryCompileExec3327696361.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2916341168/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2916341168.dir\build.make CMakeFiles/cmTryCompileExec2916341168.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2916341168.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2916341168.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2916341168.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2916341168.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2916341168.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2916341168.dir/objects.a @CMakeFiles\cmTryCompileExec2916341168.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec2916341168.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2916341168.exe -Wl,--out-implib,libcmTryCompileExec2916341168.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2567114949/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2567114949.dir\build.make CMakeFiles/cmTryCompileExec2567114949.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2567114949.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2567114949.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2567114949.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2567114949.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2567114949.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2567114949.dir/objects.a @CMakeFiles\cmTryCompileExec2567114949.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec2567114949.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2567114949.exe -Wl,--out-implib,libcmTryCompileExec2567114949.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2408991198/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2408991198.dir\build.make CMakeFiles/cmTryCompileExec2408991198.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2408991198.dir/SIZEOF_LONG.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2408991198.dir\SIZEOF_LONG.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+Linking C executable cmTryCompileExec2408991198.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2408991198.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2408991198.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2408991198.dir/objects.a @CMakeFiles\cmTryCompileExec2408991198.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec2408991198.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2408991198.exe -Wl,--out-implib,libcmTryCompileExec2408991198.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4096260634/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4096260634.dir\build.make CMakeFiles/cmTryCompileExec4096260634.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4096260634.dir/SIZEOF_LONG_LONG.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4096260634.dir\SIZEOF_LONG_LONG.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+Linking C executable cmTryCompileExec4096260634.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec4096260634.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec4096260634.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec4096260634.dir/objects.a @CMakeFiles\cmTryCompileExec4096260634.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec4096260634.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4096260634.exe -Wl,--out-implib,libcmTryCompileExec4096260634.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE___RESTRICT succeded with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3433027683/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3433027683.dir\build.make CMakeFiles/cmTryCompileExec3433027683.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3433027683.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DHAVE___RESTRICT   -o CMakeFiles\cmTryCompileExec3433027683.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTryCompileExec3433027683.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3433027683.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3433027683.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec3433027683.dir/objects.a @CMakeFiles\cmTryCompileExec3433027683.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DHAVE___RESTRICT    -Wl,--whole-archive CMakeFiles\cmTryCompileExec3433027683.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3433027683.exe -Wl,--out-implib,libcmTryCompileExec3433027683.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+int *__restrict foo;
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_W_EXTRA succeded with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec248585643/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec248585643.dir\build.make CMakeFiles/cmTryCompileExec248585643.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec248585643.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -Wextra   -o CMakeFiles\cmTryCompileExec248585643.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTryCompileExec248585643.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec248585643.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec248585643.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec248585643.dir/objects.a @CMakeFiles\cmTryCompileExec248585643.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -Wextra    -Wl,--whole-archive CMakeFiles\cmTryCompileExec248585643.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec248585643.exe -Wl,--out-implib,libcmTryCompileExec248585643.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C SOURCE FILE Test HAVE_GCC_DESTRUCTOR succeded with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2313172170/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2313172170.dir\build.make CMakeFiles/cmTryCompileExec2313172170.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2313172170.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DHAVE_GCC_DESTRUCTOR   -o CMakeFiles\cmTryCompileExec2313172170.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTryCompileExec2313172170.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2313172170.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2313172170.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2313172170.dir/objects.a @CMakeFiles\cmTryCompileExec2313172170.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DHAVE_GCC_DESTRUCTOR    -Wl,--whole-archive CMakeFiles\cmTryCompileExec2313172170.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2313172170.exe -Wl,--out-implib,libcmTryCompileExec2313172170.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo() __attribute__((destructor));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_MSSE_SWITCH succeded with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1987739792/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1987739792.dir\build.make CMakeFiles/cmTryCompileExec1987739792.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1987739792.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -msse   -o CMakeFiles\cmTryCompileExec1987739792.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTryCompileExec1987739792.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1987739792.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1987739792.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1987739792.dir/objects.a @CMakeFiles\cmTryCompileExec1987739792.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -msse    -Wl,--whole-archive CMakeFiles\cmTryCompileExec1987739792.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1987739792.exe -Wl,--out-implib,libcmTryCompileExec1987739792.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C SOURCE FILE Test HAVE_GCC_FORMAT succeded with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec64622105/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec64622105.dir\build.make CMakeFiles/cmTryCompileExec64622105.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec64622105.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DHAVE_GCC_FORMAT   -o CMakeFiles\cmTryCompileExec64622105.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTryCompileExec64622105.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec64622105.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec64622105.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec64622105.dir/objects.a @CMakeFiles\cmTryCompileExec64622105.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DHAVE_GCC_FORMAT    -Wl,--whole-archive CMakeFiles\cmTryCompileExec64622105.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec64622105.exe -Wl,--out-implib,libcmTryCompileExec64622105.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
+                         int main() {return 0;}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec680270768/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec680270768.dir\build.make CMakeFiles/cmTryCompileExec680270768.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec680270768.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec680270768.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec680270768.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec680270768.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec680270768.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec680270768.dir/objects.a @CMakeFiles\cmTryCompileExec680270768.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec680270768.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec680270768.exe -Wl,--out-implib,libcmTryCompileExec680270768.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3505293318/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3505293318.dir\build.make CMakeFiles/cmTryCompileExec3505293318.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3505293318.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3505293318.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3505293318.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3505293318.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3505293318.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec3505293318.dir/objects.a @CMakeFiles\cmTryCompileExec3505293318.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec3505293318.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3505293318.exe -Wl,--out-implib,libcmTryCompileExec3505293318.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3428749150/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3428749150.dir\build.make CMakeFiles/cmTryCompileExec3428749150.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3428749150.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3428749150.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3428749150.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3428749150.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3428749150.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec3428749150.dir/objects.a @CMakeFiles\cmTryCompileExec3428749150.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec3428749150.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3428749150.exe -Wl,--out-implib,libcmTryCompileExec3428749150.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3366505044/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3366505044.dir\build.make CMakeFiles/cmTryCompileExec3366505044.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3366505044.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3366505044.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3366505044.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3366505044.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3366505044.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec3366505044.dir/objects.a @CMakeFiles\cmTryCompileExec3366505044.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec3366505044.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3366505044.exe -Wl,--out-implib,libcmTryCompileExec3366505044.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file initguid.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1246949064/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1246949064.dir\build.make CMakeFiles/cmTryCompileExec1246949064.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1246949064.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1246949064.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec1246949064.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1246949064.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1246949064.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1246949064.dir/objects.a @CMakeFiles\cmTryCompileExec1246949064.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1246949064.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1246949064.exe -Wl,--out-implib,libcmTryCompileExec1246949064.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4162902852/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4162902852.dir\build.make CMakeFiles/cmTryCompileExec4162902852.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4162902852.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles\cmTryCompileExec4162902852.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'pow' [enabled by default]
+Linking C executable cmTryCompileExec4162902852.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec4162902852.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec4162902852.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec4162902852.dir/objects.a @CMakeFiles\cmTryCompileExec4162902852.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=pow    -Wl,--whole-archive CMakeFiles\cmTryCompileExec4162902852.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4162902852.exe -Wl,--out-implib,libcmTryCompileExec4162902852.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the lrintf exist passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1821074842/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1821074842.dir\build.make CMakeFiles/cmTryCompileExec1821074842.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1821074842.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1821074842.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTryCompileExec1821074842.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1821074842.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1821074842.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1821074842.dir/objects.a @CMakeFiles\cmTryCompileExec1821074842.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1821074842.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1821074842.exe -Wl,--out-implib,libcmTryCompileExec1821074842.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrintf
+  return ((int*)(&lrintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fesetround exist passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1493542433/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1493542433.dir\build.make CMakeFiles/cmTryCompileExec1493542433.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1493542433.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1493542433.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTryCompileExec1493542433.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1493542433.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1493542433.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1493542433.dir/objects.a @CMakeFiles\cmTryCompileExec1493542433.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1493542433.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1493542433.exe -Wl,--out-implib,libcmTryCompileExec1493542433.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fesetround
+  return ((int*)(&fesetround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2370738693/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2370738693.dir\build.make CMakeFiles/cmTryCompileExec2370738693.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2370738693.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=strtof   -o CMakeFiles\cmTryCompileExec2370738693.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec2370738693.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2370738693.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2370738693.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2370738693.dir/objects.a @CMakeFiles\cmTryCompileExec2370738693.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=strtof    -Wl,--whole-archive CMakeFiles\cmTryCompileExec2370738693.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2370738693.exe -Wl,--out-implib,libcmTryCompileExec2370738693.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1639874660/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1639874660.dir\build.make CMakeFiles/cmTryCompileExec1639874660.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1639874660.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=stat   -o CMakeFiles\cmTryCompileExec1639874660.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec1639874660.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1639874660.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1639874660.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1639874660.dir/objects.a @CMakeFiles\cmTryCompileExec1639874660.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=stat    -Wl,--whole-archive CMakeFiles\cmTryCompileExec1639874660.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1639874660.exe -Wl,--out-implib,libcmTryCompileExec1639874660.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4259429883/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4259429883.dir\build.make CMakeFiles/cmTryCompileExec4259429883.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4259429883.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles\cmTryCompileExec4259429883.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'strcasecmp' [enabled by default]
+Linking C executable cmTryCompileExec4259429883.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec4259429883.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec4259429883.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec4259429883.dir/objects.a @CMakeFiles\cmTryCompileExec4259429883.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=strcasecmp    -Wl,--whole-archive CMakeFiles\cmTryCompileExec4259429883.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4259429883.exe -Wl,--out-implib,libcmTryCompileExec4259429883.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec805550116/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec805550116.dir\build.make CMakeFiles/cmTryCompileExec805550116.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec805550116.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles\cmTryCompileExec805550116.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'strncasecmp' [enabled by default]
+Linking C executable cmTryCompileExec805550116.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec805550116.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec805550116.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec805550116.dir/objects.a @CMakeFiles\cmTryCompileExec805550116.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=strncasecmp    -Wl,--whole-archive CMakeFiles\cmTryCompileExec805550116.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec805550116.exe -Wl,--out-implib,libcmTryCompileExec805550116.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec825642530/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec825642530.dir\build.make CMakeFiles/cmTryCompileExec825642530.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec825642530.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles\cmTryCompileExec825642530.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'snprintf' [enabled by default]
+Linking C executable cmTryCompileExec825642530.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec825642530.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec825642530.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec825642530.dir/objects.a @CMakeFiles\cmTryCompileExec825642530.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=snprintf    -Wl,--whole-archive CMakeFiles\cmTryCompileExec825642530.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec825642530.exe -Wl,--out-implib,libcmTryCompileExec825642530.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2297212035/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2297212035.dir\build.make CMakeFiles/cmTryCompileExec2297212035.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2297212035.dir/CheckFunctionExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles\cmTryCompileExec2297212035.dir\CheckFunctionExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c"
+F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\share\cmake-2.8\Modules\CheckFunctionExists.c:3:6: warning: conflicting types for built-in function 'vsnprintf' [enabled by default]
+Linking C executable cmTryCompileExec2297212035.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2297212035.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2297212035.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2297212035.dir/objects.a @CMakeFiles\cmTryCompileExec2297212035.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=vsnprintf    -Wl,--whole-archive CMakeFiles\cmTryCompileExec2297212035.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2297212035.exe -Wl,--out-implib,libcmTryCompileExec2297212035.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the isfinite exist passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1942688581/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1942688581.dir\build.make CMakeFiles/cmTryCompileExec1942688581.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1942688581.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1942688581.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTryCompileExec1942688581.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1942688581.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1942688581.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1942688581.dir/objects.a @CMakeFiles\cmTryCompileExec1942688581.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1942688581.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1942688581.exe -Wl,--out-implib,libcmTryCompileExec1942688581.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1265403184/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1265403184.dir\build.make CMakeFiles/cmTryCompileExec1265403184.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1265403184.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1265403184.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTryCompileExec1265403184.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1265403184.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1265403184.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1265403184.dir/objects.a @CMakeFiles\cmTryCompileExec1265403184.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1265403184.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1265403184.exe -Wl,--out-implib,libcmTryCompileExec1265403184.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec952110672/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec952110672.dir\build.make CMakeFiles/cmTryCompileExec952110672.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec952110672.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -D_WIN32_WINNT=0x0501     -o CMakeFiles\cmTryCompileExec952110672.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec952110672.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec952110672.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec952110672.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec952110672.dir/objects.a @CMakeFiles\cmTryCompileExec952110672.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -D_WIN32_WINNT=0x0501      -Wl,--whole-archive CMakeFiles\cmTryCompileExec952110672.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec952110672.exe -Wl,--out-implib,libcmTryCompileExec952110672.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the timeGetTime exist in winmm passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec210366269/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec210366269.dir\build.make CMakeFiles/cmTryCompileExec210366269.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec210366269.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec210366269.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTryCompileExec210366269.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec210366269.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec210366269.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec210366269.dir/objects.a @CMakeFiles\cmTryCompileExec210366269.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec210366269.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec210366269.exe -Wl,--out-implib,libcmTryCompileExec210366269.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <mmsystem.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+  cmakeRequireSymbol(0,&timeGetTime);
+  return 0;
+}
+
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2546275142/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2546275142.dir\build.make CMakeFiles/cmTryCompileExec2546275142.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2546275142.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -msse     -o CMakeFiles\cmTryCompileExec2546275142.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2546275142.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2546275142.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2546275142.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2546275142.dir/objects.a @CMakeFiles\cmTryCompileExec2546275142.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -msse      -Wl,--whole-archive CMakeFiles\cmTryCompileExec2546275142.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2546275142.exe -Wl,--out-implib,libcmTryCompileExec2546275142.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files windows.h;mmsystem.h exist passed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1395381974/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1395381974.dir\build.make CMakeFiles/cmTryCompileExec1395381974.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1395381974.dir/CheckIncludeFiles.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1395381974.dir\CheckIncludeFiles.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec1395381974.exe
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1395381974.dir\link.txt --verbose=1
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1395381974.dir/objects.a
+c:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1395381974.dir/objects.a @CMakeFiles\cmTryCompileExec1395381974.dir\objects1.rsp
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1395381974.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1395381974.exe -Wl,--out-implib,libcmTryCompileExec1395381974.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+
+

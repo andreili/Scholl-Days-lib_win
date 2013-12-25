@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/utils/makehrtf.c
+config.h
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/utils/config.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+ctype.h
+-
+math.h
+-
+AL/al.h
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/utils/AL/al.h
+stdint.h
+-
+
+config.h
+
+include/AL/al.h
+

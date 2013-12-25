@@ -1,0 +1,3 @@
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/OpenAL32.dir
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/makehrtf.dir
+F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/openal-info.dir

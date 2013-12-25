@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenAL" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;" />
+		<Build>
+			<Target title="all">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="OpenAL32">
+				<Option output="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/libOpenAL32.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DAL_LIBTYPE_STATIC" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/OpenAL32/Include" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/include-fixed" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 OpenAL32' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="OpenAL32/fast">
+				<Option output="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/libOpenAL32.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DAL_LIBTYPE_STATIC" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/OpenAL32/Include" />
+					<Add directory="F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../../include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/include" />
+					<Add directory="c:/program files (x86)/codeblocks/mingw/bin/../lib/gcc/mingw32/4.7.1/include-fixed" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 OpenAL32/fast' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 install' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 install/local' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 install/strip' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 list_install_components' />
+					<CompileFile command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="Alc/ALc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/ALu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcConfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcDedicated.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcEcho.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcModulator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcReverb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcRing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/alcThread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/backends/loopback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/backends/null.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/backends/wave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/backends/winmm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/bs2b.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/hrtf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/mixer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/mixer_c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/mixer_sse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Alc/panning.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="OpenAL32/alAuxEffectSlot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alBuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alEffect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alError.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alExtension.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alListener.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alSource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alState.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OpenAL32/alThunk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmake/CheckCCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files/cmake/" />
+		</Unit>
+		<Unit filename="cmake/CheckSharedFunctionExists.cmake">
+			<Option virtualFolder="CMake Files/cmake/" />
+		</Unit>
+		<Unit filename="config.h.in">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="openal.pc.in">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="utils/makehrtf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils/openal-info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

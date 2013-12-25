@@ -1,0 +1,403 @@
+Performing C SOURCE FILE Test HAVE_RESTRICT failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1339549992/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1339549992.dir\build.make CMakeFiles/cmTryCompileExec1339549992.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1339549992.dir/src.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -DHAVE_RESTRICT   -o CMakeFiles\cmTryCompileExec1339549992.dir\src.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\src.c:1:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'foo'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1339549992.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1339549992/fast] Error 2
+
+Source file was:
+int *restrict foo;
+                         int main() {return 0;}
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4161707318/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4161707318.dir\build.make CMakeFiles/cmTryCompileExec4161707318.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4161707318.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4161707318.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec4161707318.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec4161707318/fast] Error 2
+
+
+Determining if the include file guiddef.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec502826217/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec502826217.dir\build.make CMakeFiles/cmTryCompileExec502826217.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec502826217.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec502826217.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: guiddef.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec502826217.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec502826217/fast] Error 2
+
+
+Determining if the aligned_alloc exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2617164200/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2617164200.dir\build.make CMakeFiles/cmTryCompileExec2617164200.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2617164200.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2617164200.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'aligned_alloc' undeclared (first use in this function)
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2617164200.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2617164200/fast] Error 2
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec628734061/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec628734061.dir\build.make CMakeFiles/cmTryCompileExec628734061.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec628734061.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec628734061.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec628734061.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec628734061/fast] Error 2
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1791475735/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1791475735.dir\build.make CMakeFiles/cmTryCompileExec1791475735.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1791475735.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1791475735.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '_aligned_malloc' undeclared (first use in this function)
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1791475735.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1791475735/fast] Error 2
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _controlfp exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1683503149/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1683503149.dir\build.make CMakeFiles/cmTryCompileExec1683503149.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1683503149.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1683503149.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '_controlfp' undeclared (first use in this function)
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1683503149.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1683503149/fast] Error 2
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _controlfp
+  return ((int*)(&_controlfp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __control87_2 exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1648827656/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1648827656.dir\build.make CMakeFiles/cmTryCompileExec1648827656.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1648827656.dir/CheckSymbolExists.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1648827656.dir\CheckSymbolExists.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '__control87_2' undeclared (first use in this function)
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1648827656.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1648827656/fast] Error 2
+
+File F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __control87_2
+  return ((int*)(&__control87_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec3483845791/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3483845791.dir\build.make CMakeFiles/cmTryCompileExec3483845791.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3483845791.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3483845791.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:19: fatal error: dlfcn.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec3483845791.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec3483845791/fast] Error 2
+
+
+Determining if the include file arm_neon.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1877511846/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1877511846.dir\build.make CMakeFiles/cmTryCompileExec1877511846.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1877511846.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1877511846.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: fatal error: arm_neon.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1877511846.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1877511846/fast] Error 2
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec447968242/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec447968242.dir\build.make CMakeFiles/cmTryCompileExec447968242.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec447968242.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec447968242.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:28: fatal error: alsa/asoundlib.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec447968242.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec447968242/fast] Error 2
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec267649969/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec267649969.dir\build.make CMakeFiles/cmTryCompileExec267649969.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec267649969.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec267649969.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:27: fatal error: sys/soundcard.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec267649969.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec267649969/fast] Error 2
+
+
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec1636255397/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1636255397.dir\build.make CMakeFiles/cmTryCompileExec1636255397.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1636255397.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec1636255397.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:25: fatal error: sys/audioio.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec1636255397.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec1636255397/fast] Error 2
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4033693366/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4033693366.dir\build.make CMakeFiles/cmTryCompileExec4033693366.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4033693366.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4033693366.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:19: fatal error: sndio.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec4033693366.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe: *** [cmTryCompileExec4033693366/fast] Error 2
+
+
+Determining if the include file mmdeviceapi.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2740864045/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2740864045.dir\build.make CMakeFiles/cmTryCompileExec2740864045.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2740864045.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2740864045.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:25: fatal error: mmdeviceapi.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2740864045.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2740864045/fast] Error 2
+
+
+Determining if the include file dsound.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec945449476/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec945449476.dir\build.make CMakeFiles/cmTryCompileExec945449476.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec945449476.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec945449476.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dsound.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec945449476.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec945449476/fast] Error 2
+
+
+Determining if the include file portaudio.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2739455929/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2739455929.dir\build.make CMakeFiles/cmTryCompileExec2739455929.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2739455929.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2739455929.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:23: fatal error: portaudio.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2739455929.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2739455929/fast] Error 2
+
+
+Determining if the include file pulse/pulseaudio.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec4087339440/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4087339440.dir\build.make CMakeFiles/cmTryCompileExec4087339440.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4087339440.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4087339440.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:30: fatal error: pulse/pulseaudio.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec4087339440.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec4087339440/fast] Error 2
+
+
+Determining if the include file /System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h exists failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2107334511/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2107334511.dir\build.make CMakeFiles/cmTryCompileExec2107334511.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2107334511.dir/CheckIncludeFile.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2107334511.dir\CheckIncludeFile.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:78: fatal error: /System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2107334511.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2107334511/fast] Error 2
+
+
+Determining if files SLES/OpenSLES.h;SLES/OpenSLES_Android.h exist failed with the following output:
+Change Dir: F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp
+
+Run Build Command:c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe "cmTryCompileExec2360814478/fast"
+c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2360814478.dir\build.make CMakeFiles/cmTryCompileExec2360814478.dir/build
+mingw32-make.exe[1]: Entering directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+"F:\Projects (C++)\SD\SD\_libs\cmake-2.8.8-win32-x86\bin\cmake.exe" -E cmake_progress_report "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2360814478.dir/CheckIncludeFiles.c.obj
+c:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec2360814478.dir\CheckIncludeFiles.c.obj   -c "F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+F:\Projects (C++)\SD\SD\_libs\openal-soft-1.15.1\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:27: fatal error: SLES/OpenSLES.h: No such file or directory
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2360814478.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `F:/Projects (C++)/SD/SD/_libs/openal-soft-1.15.1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2360814478/fast] Error 2
+
+Source:
+/* */
+#include <SLES/OpenSLES.h>
+#include <SLES/OpenSLES_Android.h>
+
+
+int main(){return 0;}
+
