@@ -1,0 +1,4 @@
+F:/Projects (C++)/SD/SD/_libs/lpng167/CMakeFiles/libpng-config_COPY.dir
+F:/Projects (C++)/SD/SD/_libs/lpng167/CMakeFiles/libpng.a_COPY.dir
+F:/Projects (C++)/SD/SD/_libs/lpng167/CMakeFiles/libpng.pc_COPY.dir
+F:/Projects (C++)/SD/SD/_libs/lpng167/CMakeFiles/png16_static.dir

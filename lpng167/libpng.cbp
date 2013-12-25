@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="libpng" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\scripts\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libpng-config_COPY">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 libpng-config_COPY" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libpng.a_COPY">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 libpng.a_COPY" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libpng.pc_COPY">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 libpng.pc_COPY" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="png16_static">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/lpng167/libpng16.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/msys/1.0/mingw/include" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 png16_static" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="png16_static/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/lpng167/libpng16.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/msys/1.0/mingw/include" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 png16_static/fast" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/lpng167" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/lpng167/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/png.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngerror.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngget.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngmem.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngpread.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngread.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngrio.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngrtran.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngrutil.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngset.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngtrans.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngwio.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngwrite.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngwtran.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngwutil.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/png.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngconf.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngdebug.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pnginfo.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pnglibconf.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngpriv.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/pngstruct.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/libpng.pc.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/libpng-config.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/lpng167/scripts/pnglibconf.h.prebuilt">
+          <Option virtualFolder="CMake Files\scripts\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
