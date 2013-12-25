@@ -1,0 +1,5 @@
+F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeFiles/example.dir
+F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeFiles/example64.dir
+F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeFiles/minigzip.dir
+F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeFiles/minigzip64.dir
+F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeFiles/zlib.dir

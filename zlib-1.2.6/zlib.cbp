@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="zlib" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/example.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 example" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/example.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 example/fast" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example64">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/example64.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 example64" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="example64/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/example64.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 example64/fast" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="minigzip">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/minigzip.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 minigzip" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="minigzip/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/minigzip.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 minigzip/fast" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="minigzip64">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/minigzip64.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 minigzip64" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="minigzip64/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/minigzip64.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 minigzip64/fast" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zlib">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/libzlib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 zlib" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zlib/fast">
+         <Option output="F:/Projects (C++)/SD/SD/_libs/libzlib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_LARGEFILE64_SOURCE=1" />
+            <Add option="-DNO_FSEEKO" />
+            <Add directory="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include" />
+            <Add directory="c:\program files (x86)\codeblocks\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 zlib/fast" />
+            <CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/adler32.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/compress.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/crc32.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/deflate.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/gzclose.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/gzlib.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/gzread.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/gzwrite.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/infback.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inffast.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inflate.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inftrees.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/test/example.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/test/minigzip.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/trees.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/uncompr.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/zutil.c">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/crc32.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/deflate.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/gzguts.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inffast.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inffixed.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inflate.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/inftrees.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/trees.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/zconf.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/zlib.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/zutil.h">
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="F:/Projects (C++)/SD/SD/_libs/zlib-1.2.6/zconf.h.cmakein">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
